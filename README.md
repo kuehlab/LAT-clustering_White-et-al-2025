@@ -21,12 +21,12 @@ Image analysis was conducted using the MATLAB code provided in `image_analysis/`
 1. Add all files in `image_analysis/code/utils/` to your MATLAB path
 2. Create a directory with the following structure to hold the data and analysis results\
 $\qquad$ `<experiment_name>/`\
-$\qquad \qquad \qquad$ `raw_data/`\
-$\qquad \qquad \qquad \qquad \qquad$ `<data_name1>/` (contains TIF files from microscope)\
-$\qquad \qquad \qquad \qquad \qquad$ `<data_name1>.pos` (text file with list of image names in the order they are listed in `<data_name1>/`)\
-$\qquad \qquad \qquad \qquad \qquad$ ...\
-$\qquad \qquad \qquad \qquad \qquad$ `<data_nameN>/` (contains TIF files from microscope)\
-$\qquad \qquad \qquad \qquad \qquad$ `<data_nameN>.pos`(text file with list of image names in the order they are listed in `<data_nameN>/`)
+$\qquad \qquad$ `raw_data/`\
+$\qquad \qquad \qquad$ `<data_name1>/` (contains TIF files from microscope)\
+$\qquad \qquad \qquad$ `<data_name1>.pos` (text file with list of image names in the order they are listed in `<data_name1>/`)\
+$\qquad \qquad \qquad$ ...\
+$\qquad \qquad \qquad$ `<data_nameN>/` (contains TIF files from microscope)\
+$\qquad \qquad \qquad$ `<data_nameN>.pos`(text file with list of image names in the order they are listed in `<data_nameN>/`)
 3. Copy all files in `image_analysis/code/main/` into the `<experiment_name>/` directory
 4. Adjust the parameters in `makeparams_multiseg.m` as needed
 	- `p.path` should be set to the `<experiment_name>/` directory
